@@ -8,10 +8,9 @@ Pod::Spec.new do |s|
   s.author   = { 'Adar Porat' => 'http://github.com/aporat' }
   s.source   = { :git => 'https://github.com/aporat/iTellAFriend.git' }
   
-  s.platform = :ios, '5.0'
+  s.platform = :ios, '6.0'
   s.requires_arc = true
   s.source_files = 'src/*.{h,m}'
-  s.clean_paths = "Classes", "*.{plist,pch,md,m,xcodeproj}", "example"
   s.frameworks = 'MessageUI'
   s.weak_framework   = 'StoreKit'
 
